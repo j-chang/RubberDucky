@@ -1,0 +1,212 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+
+/*
+==========================================
+BACKGROUND IMAGE
+==========================================
+*/
+
+#background {
+  background-image: url(./assets/bg.jpg);
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*
+==========================================
+CONTAINER
+==========================================
+*/
+
+#container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0,0,0,0.5);
+  padding: 26px;
+  min-height: 200px;
+  min-width: 600px;
+}
+
+/*
+==========================================
+LOGO
+==========================================
+*/
+
+#logo {
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  color: #3B8FF2;
+  font-size: 5em;
+  margin: 18px;
+  margin-bottom: 26px;
+}
+
+/*
+==========================================
+SLOGAN
+==========================================
+*/
+
+#slogan {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  color: #fff;
+  font-size: 2em;
+  font-style: italic;
+  margin: 12px;
+  margin-bottom: 34px;
+}
+
+/*
+==========================================
+PARAGRAPH
+==========================================
+*/
+
+#description {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  color: #fff;
+  font-size: 1.2em;
+  margin: 22px;
+}
+
+/*
+==========================================
+EMAIL CONTAINER
+==========================================
+*/
+
+ #email-container {
+  margin: 26px;
+}
+
+/*
+==========================================
+COMPANY INFO
+==========================================
+*/
+
+#company-info {
+  margin: 0 auto;
+  text-align: center;
+}
+
+/*
+==========================================
+MAP CONTAINER
+==========================================
+*/
+
+#map-container {
+  border: 1px solid #8899A6;
+  margin: 22px;
+  padding: 22px;
+  border-radius: 5px;
+  background-color: #fff;
+  min-height: 160px;
+  min-width: 160px;
+  width: 42%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/*
+==========================================
+PARAGRAPH / ADDRESS
+==========================================
+*/
+
+p {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  color: #fff;
+  font-size: 1em;
+}
+
+#address {
+  text-align: left;
+  display: inline-block;
+}
+
+/*
+==========================================
+SOCIAL MEDIA
+==========================================
+*/
+
+#social-media {
+  margin: 0 auto;
+  text-align: center;
+}
+
+/*
+==========================================
+ICONS
+==========================================
+*/
+
+i {
+  color: #fff;
+  margin: 8px;
+}
+
+i:hover {
+  cursor: pointer;
+  color: #59A5FF;
+}
